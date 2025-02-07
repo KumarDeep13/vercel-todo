@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Advanced To-Do List 📝</h1>
+      <div class="input-section">
+        <input type="text" class="task-input" placeholder="Add a new task..." />
+        <button class="add-btn">Add Task ➕</button>
+      </div>
+
+      <div class="filter-section">
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+        <button class="filter-btn" data-filter="active">Active</button>
+      </div>
+
+      <div class="tasks-container"></div>
+
+      <div class="stats-container">
+        <div>Total Tasks: <span id="total-tasks">0</span></div>
+        <div>Completed: <span id="completed-tasks">0</span></div>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
